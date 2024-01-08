@@ -12,7 +12,7 @@ import { LargeTextComponent } from './components/large-text.component'
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
-            src="/favicon.ico"
+            src="./favicon.ico"
             alt="Logo"
             width="24"
             height="24"
