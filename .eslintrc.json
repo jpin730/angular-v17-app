@@ -28,6 +28,13 @@
             "prefix": "app",
             "style": "kebab-case"
           }
+        ],
+        "@typescript-eslint/no-inferrable-types": "error",
+        "no-console": [
+          "error",
+          {
+            "allow": ["warn", "error"]
+          }
         ]
       }
     },
