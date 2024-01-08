@@ -9,3 +9,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Build
 
 Run `npm build` to build the project. The build artifacts will be stored in the `docs/` directory for using GitHub pages.
+
+DEMO: <https://jpin730.github.io/angular-v17-app/>
