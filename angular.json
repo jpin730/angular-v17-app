@@ -11,7 +11,6 @@
         },
         "@schematics/angular:component": {
           "inlineStyle": true,
-          "inlineTemplate": true,
           "skipTests": true
         },
         "@schematics/angular:directive": {

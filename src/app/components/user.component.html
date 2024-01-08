@@ -1,0 +1,29 @@
+<section>
+  @if (isLoggedIn) {
+    <p>
+      Welcome, {{ username }}.
+      <a href="#" aria-disabled="true" (click)="isLoggedIn = false"> Logout </a>
+    </p>
+  } @else {
+    <p>
+      Please login.
+      <a href="#" aria-disabled="true" (click)="isLoggedIn = true"> Login </a>
+    </p>
+  }
+
+  @if (favoriteGame) {
+    <p>
+      Your favorite game is {{ favoriteGame.name }}.
+      <a href="#" aria-disabled="true" (click)="favoriteGame = undefined">
+        Clear favorite
+      </a>
+    </p>
+  } @else {
+    <p>You don't have a favorite game.</p>
+  }
+
+  <app-games
+    (favoriteGameSelected)="favoriteGame = $event"
+    [favoriteGame]="favoriteGame"
+  />
+</section>
